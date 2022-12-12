@@ -6,11 +6,14 @@ If anyone can scrape the rest, please open an issue!
 
 <img alt="XME0601 Board" src="Board.png"/>
 
+# Constraints
+A constraints file is supplied by this repo that can be directly imported into PlanAhead.
+
 # Common Connections
-|Name|FPGA Pin|
-|---|---|
-|50 MHz Clock |L30P GCLK1|
-|Switch 1|L47N2|
-|Switch 2|L63N|
-|Led 1|L62P|
-|Led 2|L62N|
+|Name|FPGA Pin|Constraint Name|
+|---|---|---|
+|50 MHz Clock |L30P GCLK1||
+|Switch 1|L47N2|button1|
+|Switch 2|L63N|button2|
+|Led 1|L62P|led1|
+|Led 2|L62N|led2|
