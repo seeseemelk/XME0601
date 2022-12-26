@@ -12,7 +12,7 @@ A constraints file is supplied by this repo that can be directly imported into P
 # Common Connections
 |Name|FPGA Pin|Constraint Name|
 |---|---|---|
-|50 MHz Clock |L30P GCLK1||
+|50 MHz Clock |L30P GCLK1||clk_50mhz&
 |Switch 1|L47N2|button1|
 |Switch 2|L63N|button2|
 |Led 1|L62P|led1|
