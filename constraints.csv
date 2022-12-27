@@ -5,6 +5,6 @@
 Pin Number,Signal Name,Direction
 P8,clk_50mhz,IN
 T6,button1,IN
-A14,button2,IN
+T4,button2,IN
 L8,led1,OUT
 L7,led2,OUT
